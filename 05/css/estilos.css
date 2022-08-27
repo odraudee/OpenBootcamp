@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.galeria {
+    background-color: darksalmon;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imagen-galeria {
+    height: 200px;
+    width: 300px;
+}
+
+.imagen-galeria:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

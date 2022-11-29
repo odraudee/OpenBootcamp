@@ -1,0 +1,100 @@
+<style>
+    .text,.center_element,.disclaimer{
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+    }
+    .center_element{
+        align-items: center;
+    }
+    .tbl{
+        width: 50%;
+        height: 300px;
+        background-color: #f3d070;
+        border-collapse: collapse;
+        border-radius: 20px;
+    }
+    .tab_header {
+        border: 2px solid white;
+        text-align: center;
+        width: 20%;
+    }
+    .tab_value{
+        border: 2px solid white;
+        text-indent: 5%;
+        width: 80%;
+    }
+    .map{
+        border-radius: 20px;
+    }
+    .disclaimer{
+        text-align: justify;
+        text-justify: inter-word;
+    }
+</style>
+<div class='text'>
+    <p>Deseas saber quién llama con el número [acf field="nir"]-[acf field="serie"]-xxxx?. Entonces
+        estas en el sitio
+        correcto! Aquí encontrarás la información mas actualizada y comentarios de mas personas que buscan la misma
+        información.</p>
+    <p>El numero de telefono XXXXXXXXX te llama desde la ciudad de XXXXXXXXXX en el estado de
+        XXXXXXXXXX.
+        Se trata de un telefono XXXXXXXX de la compañia XXXXXXXXXXX.
+    </p>
+</div>
+<div class='center_element'>
+    <table class='tbl'>
+        <tbody>
+            <tr>
+                <td class='tab_header'><strong>POBLACION</strong></td>
+                <td class='tab_value'>
+                    <p>[acf field=""poblacion""]
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class='tab_header'><strong>MUNICIPIO</strong></td>
+                <td class='tab_value'>
+                    <p>[acf field=""municipio""]
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class='tab_header'><strong>ESTADO</strong></td>
+                <td class='tab_value'>
+                    <p>[acf field=""estado""]
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class='tab_header'><strong>TIPO</strong></td>
+                <td class='tab_value'>
+                    <p>[acf field=""tipo_red""]
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class='tab_header'><strong>COMPA&Ntilde;IA</strong></td>
+                <td class='tab_value'>
+                    <p>[acf field=""razon_social""]
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class='center_element'>
+    <iframe class='map' title='Location'
+        src='https://www.google.com/maps/embed/v1/place?key=AIzaSyAsd_d46higiozY-zNqtr7zdA81Soswje4&amp;q=CORTAZAR&amp;zoom=12&amp;language=en'
+        width='50%' height='300' loading='lazy'>
+    </iframe>
+</div>
+<div class='disclaimer'>
+    <p>Conoces algo mas sobre este numero telefonico? Compartenos tus comentarios!.</p>
+    <p>Quienllama.com.mx es un sitio web que proporciona información sobre diferentes números
+        telefónicos. Nosotros no ofrecemos ningún tipo de asistencia al cliente, en cambio, reunimos información de
+        distintas fuentes, como sitios de redes sociales o comentarios de nuestros clientes, para asegurarnos que los
+        datos que proporcionamos sean precisos; sin embargo, pueden ocurrir errores, así que si en alguna ocasión
+        detecta algún fallo en nuestra información no dude en contactarnos a través de nuestro correo electrónico.
+    </p>
+</div>
